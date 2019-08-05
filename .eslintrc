@@ -1,3 +1,4 @@
+/*eslint linebreak-style: ["error", "windows"]*/
 {
   "extends": "./node_modules/@pawjs/pawjs/.eslintrc",
   "settings": {

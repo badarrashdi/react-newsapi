@@ -1,3 +1,4 @@
+import Home from '../components/homepage/Home';
 import fetch from 'universal-fetch';
 import skeleton from '../components/skeleton';
 import FeaturesImage from '../resources/img/seo/features.png';
@@ -7,9 +8,9 @@ import ImageOptimizationImage from '../resources/img/seo/image-optimization.png'
 
 export default [
   {
-    path: '/home',
+    path: '/',
     exact: true,
-    component: () => import('../components/home'),
+    component: () => import('../components/homepage/Home'),
     seo: {
       title: 'Home | ReactPWA Demo',
       description: 'Feature set offered by ReactPWA with pluggable @pawjs plugins. ReactPWA is highly customizable and once can achieve anything as it is extendable',
